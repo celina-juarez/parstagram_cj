@@ -10,6 +10,7 @@
 		0BC321D484CAD6BB7A1BD5B9 /* Pods_parstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BC48C3B8777B8C5D45186F /* Pods_parstagramUITests.framework */; };
 		2627135F2224A97F00A77BFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2627135E2224A97F00A77BFA /* LoginViewController.swift */; };
 		262713612224A98D00A77BFA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262713602224A98D00A77BFA /* FeedViewController.swift */; };
+		266A785D222DE099008C7FB0 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A785C222DE099008C7FB0 /* CommentCell.swift */; };
 		2676554A22249DE300A98A3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676554922249DE300A98A3F /* AppDelegate.swift */; };
 		2676554F22249DE300A98A3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2676554D22249DE300A98A3F /* Main.storyboard */; };
 		2676555122249DE400A98A3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2676555022249DE400A98A3F /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		25033E9BC3332FD07052F58F /* Pods-parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parstagram.debug.xcconfig"; path = "Target Support Files/Pods-parstagram/Pods-parstagram.debug.xcconfig"; sourceTree = "<group>"; };
 		2627135E2224A97F00A77BFA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		262713602224A98D00A77BFA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		266A785C222DE099008C7FB0 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		2676554622249DE300A98A3F /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2676554922249DE300A98A3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2676554E22249DE300A98A3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				262713602224A98D00A77BFA /* FeedViewController.swift */,
 				26E7D0942224FE5600C4DAD6 /* CameraViewController.swift */,
 				26E7D0D42225DA6F00C4DAD6 /* PostCell.swift */,
+				266A785C222DE099008C7FB0 /* CommentCell.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -411,6 +414,7 @@
 				262713612224A98D00A77BFA /* FeedViewController.swift in Sources */,
 				2676554A22249DE300A98A3F /* AppDelegate.swift in Sources */,
 				26E7D0D52225DA6F00C4DAD6 /* PostCell.swift in Sources */,
+				266A785D222DE099008C7FB0 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
